@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Piedra🥌-Papel🧻-o-Tijera✂</title>
+    <script src="game.js"></script>
 </head>
 <body>
-    <h1>Piedra Papel o Tijera</h1>
+    <h1 class="titulo">Piedra Papel o Tijera</h1>
+    <section class="game" id="piedra-papel-tijera">
+
+        <input type="image" id="piedra" src="imagenes/piedra.png">
+        <input type="image" id="papel" src="imagenes/papel.png">
+        <input type="image" id="tijera" src="imagenes/tijeras.png">
+
+    </section>
+
+    <section>
+        <h4>Combate:</h4>
+        <p class="resultado" id="resultados"></p>
+        <p class="vida" id="vidas"></p>
+        <p id="quien-gana"></p>
+        <input id="reiniciar" type="button" value="Reiniciar">
+    </section>
 </body>
-<script src="script.js"></script>
 </html>

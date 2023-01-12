@@ -1,3 +1,37 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./imagenes/bgrockpaperscissors')
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+input {
+    width: 100px;
+}
+/* 
+input:hover {
+    width: 120px;
+} */
+
+.resultado {
+    color: white;
+}
+
+.vida, .resultado {
+    display: inline-block;
+    height: 0px;
+}
+
+.vida {
+    color: chocolate; 
 }
